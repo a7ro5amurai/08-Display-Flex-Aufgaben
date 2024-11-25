@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Dancing;
+    src: url("../fonts/DancingScript-Regular.ttf");
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-image: url("../img/wallpaper\ pigeon.jpg");
+    background-size: 60%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 75px 10px 50px;
+    align-items: center;
+    background: rgba(75, 35, 35, 0.5);
+    font-family: Dancing;
+    color: white;
+    font-size: 2rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
